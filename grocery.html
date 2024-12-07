@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Fresh Market - Online Grocery Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css" rel="stylesheet">
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="font-[Inter] bg-gray-50">
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <nav class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <img src="https://ai-public.creatie.ai/gen_page/logo_placeholder.png" alt="Fresh Market" class="h-8">                </div>
+                <div class="flex-1 flex items-center justify-center px-8">
+                    <div class="w-full max-w-lg">                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">                                <i class="fas fa-search text-gray-400"></i>
+                            </div>
+                            <input type="text" class="block w-full pl-10 pr-3 py-2 border border-gray-200 !rounded-button bg-gray-50 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-custom focus:border-custom" placeholder="Search for products...">                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-6">                    <button class="!rounded-button bg-gray-50 p-2 hover:bg-gray-100 relative">
+                        <i class="fas fa-shopping-cart text-gray-600"></i>
+                        <span class="absolute -top-1 -right-1 bg-custom text-white text-xs font-bold px-2 py-1 !rounded-button">3</span>
+                    </button>
+                    <button class="!rounded-button flex items-center space-x-2 bg-custom text-white px-4 py-2 hover:bg-custom/90">                        <i class="fas fa-user"></i>
+                        <span>Account</span>
+                    </button>
+                </div>            </div>
+        </nav>
+    </header>
+
+    <main class="pt-16">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">            <div class="glide mt-6">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">                        <li class="glide__slide">
+                            <div class="relative h-[400px] !rounded-button overflow-hidden">                                <img src="https://creatie.ai/ai/api/search-image?query=A beautiful arrangement of fresh organic fruits and vegetables on a clean white marble counter, with soft natural lighting and vibrant colors. The produce includes colorful bell peppers, leafy greens, ripe tomatoes, and seasonal fruits, professionally styled for a premium grocery store advertisement.&width=1200&height=400&orientation=landscape&flag=9a053537-7c23-4bb1-b0bf-8f2522a4c245" alt="Fresh Produce" class="w-full h-full object-cover">                                <div class="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center">
+                                    <div class="text-white ml-16">                                        <h1 class="text-5xl font-bold mb-4">Fresh & Organic</h1>
+                                        <p class="text-xl mb-6">Get 20% off on your first order</p>
+                                        <button class="!rounded-button bg-custom text-white px-6 py-3 text-lg hover:bg-custom/90">                                            Shop Now
+                                        </button>
+                                    </div>                                </div>
+                            </div>
+                        </li>
+                    </ul>                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                </div>
+            </div>
+
+            <section class="mt-12">
+                <h2 class="text-2xl font-semibold mb-6">Shop by Category</h2>
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
+                    <a href="#" class="group">                        <div class="bg-white !rounded-button p-4 shadow-sm hover:shadow-md transition-shadow">
+                            <img src="https://creatie.ai/ai/api/search-image?query=Fresh organic fruits and vegetables arranged on a clean white surface with soft lighting, including apples, oranges, lettuce, and carrots, styled for a premium grocery store display.&width=200&height=200&orientation=squarish&flag=d4110f1d-bfa7-42bd-8acd-36dc600df62e" alt="Fresh Produce" class="w-full h-40 object-cover !rounded-button mb-4">                            <h3 class="text-center font-medium group-hover:text-custom">Fresh Produce</h3>
+                        </div>                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-white !rounded-button p-4 shadow-sm hover:shadow-md transition-shadow">                            <img src="https://creatie.ai/ai/api/search-image?query=Premium cuts of meat and fresh seafood arranged on a clean white marble surface with professional lighting, including steaks, fish fillets, and shellfish.&width=200&height=200&orientation=squarish&flag=e94fb19e-333a-4fe4-849d-c106039ea528" alt="Meat & Seafood" class="w-full h-40 object-cover !rounded-button mb-4">                            <h3 class="text-center font-medium group-hover:text-custom">Meat & Seafood</h3>
+                        </div>                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-white !rounded-button p-4 shadow-sm hover:shadow-md transition-shadow">                            <img src="https://creatie.ai/ai/api/search-image?query=Various dairy products including milk bottles, cheese wheels, yogurt cups, and butter arranged on a clean white surface with soft lighting.&width=200&height=200&orientation=squarish&flag=5f6a400a-a951-48d8-be46-def461463891" alt="Dairy & Eggs" class="w-full h-40 object-cover !rounded-button mb-4">                            <h3 class="text-center font-medium group-hover:text-custom">Dairy & Eggs</h3>
+                        </div>                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-white !rounded-button p-4 shadow-sm hover:shadow-md transition-shadow">                            <img src="https://creatie.ai/ai/api/search-image?query=Assorted bakery items including fresh bread loaves, croissants, and pastries arranged on a clean white surface with warm lighting.&width=200&height=200&orientation=squarish&flag=ccbe9b10-faa9-4d28-b6d7-8604fb432c49" alt="Bakery" class="w-full h-40 object-cover !rounded-button mb-4">                            <h3 class="text-center font-medium group-hover:text-custom">Bakery</h3>
+                        </div>                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-white !rounded-button p-4 shadow-sm hover:shadow-md transition-shadow">                            <img src="https://creatie.ai/ai/api/search-image?query=Pantry staples including pasta, rice, canned goods, and cooking oils arranged on a clean white surface with professional lighting.&width=200&height=200&orientation=squarish&flag=bb7594ae-b4fd-456a-af64-cb8b0c1b5390" alt="Pantry" class="w-full h-40 object-cover !rounded-button mb-4">                            <h3 class="text-center font-medium group-hover:text-custom">Pantry</h3>
+                        </div>                    </a>
+                    <a href="#" class="group">
+                        <div class="bg-white !rounded-button p-4 shadow-sm hover:shadow-md transition-shadow">                            <img src="https://creatie.ai/ai/api/search-image?query=Various beverages including bottled water, juices, and soft drinks arranged on a clean white surface with professional lighting.&width=200&height=200&orientation=squarish&flag=38522b6d-e99a-4ad5-bc84-9a16f70f0d7a" alt="Beverages" class="w-full h-40 object-cover !rounded-button mb-4">                            <h3 class="text-center font-medium group-hover:text-custom">Beverages</h3>
+                        </div>                    </a>
+                </div>
+            </section>
+
+            <section class="mt-12">
+                <h2 class="text-2xl font-semibold mb-6">Today's Deals</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white !rounded-button p-4 shadow-sm">                        <div class="relative">
+                            <img src="https://creatie.ai/ai/api/search-image?query=Fresh organic apples arranged on a clean white surface with soft natural lighting, styled for premium grocery store display.&width=300&height=200&orientation=landscape&flag=89fd6d7f-96a4-4ce7-9baf-4724636a03ad" alt="Organic Apples" class="w-full h-48 object-cover !rounded-button">                            <span class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 !rounded-button text-sm font-medium">Save 30%</span>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="font-medium">Organic Apples</h3>
+                            <div class="flex items-center justify-between mt-2">
+                                <div>                                    <span class="text-lg font-bold text-custom">$2.99</span>
+                                    <span class="text-sm text-gray-500 line-through ml-2">$4.29</span>
+                                </div>
+                                <button class="!rounded-button bg-custom text-white px-3 py-1 text-sm hover:bg-custom/90">                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>                    </div>
+                    <div class="bg-white !rounded-button p-4 shadow-sm">
+                        <div class="relative">                            <img src="https://creatie.ai/ai/api/search-image?query=Fresh organic avocados arranged on a clean white surface with soft natural lighting, styled for premium grocery store display.&width=300&height=200&orientation=landscape&flag=47b3ee87-3a24-48b5-a297-8a0f6bddda25" alt="Organic Avocados" class="w-full h-48 object-cover !rounded-button">                            <span class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 !rounded-button text-sm font-medium">Save 25%</span>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="font-medium">Organic Avocados</h3>
+                            <div class="flex items-center justify-between mt-2">
+                                <div>                                    <span class="text-lg font-bold text-custom">$1.99</span>
+                                    <span class="text-sm text-gray-500 line-through ml-2">$2.65</span>
+                                </div>
+                                <button class="!rounded-button bg-custom text-white px-3 py-1 text-sm hover:bg-custom/90">                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>                    </div>
+                    <div class="bg-white !rounded-button p-4 shadow-sm">
+                        <div class="relative">                            <img src="https://creatie.ai/ai/api/search-image?query=Fresh organic strawberries arranged on a clean white surface with soft natural lighting, styled for premium grocery store display.&width=300&height=200&orientation=landscape&flag=9ec23251-c3f8-4623-8e23-5efc1f860fa1" alt="Organic Strawberries" class="w-full h-48 object-cover !rounded-button">                            <span class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 !rounded-button text-sm font-medium">Save 20%</span>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="font-medium">Organic Strawberries</h3>
+                            <div class="flex items-center justify-between mt-2">
+                                <div>                                    <span class="text-lg font-bold text-custom">$3.99</span>
+                                    <span class="text-sm text-gray-500 line-through ml-2">$4.99</span>
+                                </div>
+                                <button class="!rounded-button bg-custom text-white px-3 py-1 text-sm hover:bg-custom/90">                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>                    </div>
+                    <div class="bg-white !rounded-button p-4 shadow-sm">
+                        <div class="relative">                            <img src="https://creatie.ai/ai/api/search-image?query=Fresh organic bananas arranged on a clean white surface with soft natural lighting, styled for premium grocery store display.&width=300&height=200&orientation=landscape&flag=deb251c9-82f2-400e-8cca-e49f36d2e81f" alt="Organic Bananas" class="w-full h-48 object-cover !rounded-button">                            <span class="absolute top-2 right-2 bg-red-500 text-white px-2 py-1 !rounded-button text-sm font-medium">Save 15%</span>
+                        </div>
+                        <div class="mt-4">
+                            <h3 class="font-medium">Organic Bananas</h3>
+                            <div class="flex items-center justify-between mt-2">
+                                <div>                                    <span class="text-lg font-bold text-custom">$0.99</span>
+                                    <span class="text-sm text-gray-500 line-through ml-2">$1.17</span>
+                                </div>
+                                <button class="!rounded-button bg-custom text-white px-3 py-1 text-sm hover:bg-custom/90">                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>                    </div>
+                </div>
+            </section>
+
+            <section class="mt-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">                    <div class="bg-white !rounded-button p-6 shadow-sm text-center">
+                        <i class="fas fa-truck text-4xl text-custom mb-4"></i>
+                        <h3 class="text-lg font-medium mb-2">Free Delivery</h3>
+                        <p class="text-gray-600">Free delivery on orders over $50</p>
+                    </div>
+                    <div class="bg-white !rounded-button p-6 shadow-sm text-center">                        <i class="fas fa-shield-alt text-4xl text-custom mb-4"></i>
+                        <h3 class="text-lg font-medium mb-2">Quality Guarantee</h3>
+                        <p class="text-gray-600">100% satisfaction guaranteed</p>
+                    </div>                    <div class="bg-white !rounded-button p-6 shadow-sm text-center">
+                        <i class="fas fa-undo text-4xl text-custom mb-4"></i>
+                        <h3 class="text-lg font-medium mb-2">Easy Returns</h3>
+                        <p class="text-gray-600">30-day return policy</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-white mt-12 border-t">        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">                <div>
+                    <h4 class="text-lg font-semibold mb-4">About Us</h4>
+                    <ul class="space-y-2">                        <li><a href="#" class="text-gray-600 hover:text-custom">Our Story</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-custom">Careers</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-custom">Press</a></li>
+                    </ul>                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Customer Service</h4>
+                    <ul class="space-y-2">                        <li><a href="#" class="text-gray-600 hover:text-custom">Help Center</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-custom">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-custom">Returns</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-600 hover:text-custom">                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-600 hover:text-custom">                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-600 hover:text-custom">                            <i class="fab fa-instagram text-xl"></i>
+                        </a>
+                    </div>
+                </div>                <div>
+                    <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+                    <p class="text-gray-600 mb-4">Subscribe to receive updates and special offers</p>
+                    <div class="flex">
+                        <input type="email" class="flex-1 border border-gray-200 !rounded-button-l px-4 py-2 focus:outline-none focus:ring-1 focus:ring-custom focus:border-custom" placeholder="Your email">                        <button class="!rounded-button-r bg-custom text-white px-4 py-2 hover:bg-custom/90">
+                            Subscribe
+                        </button>                    </div>
+                </div>
+            </div>
+            <div class="border-t mt-8 pt-8 text-center text-gray-600">                <p>&copy; 2024 Fresh Market. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>        new Glide('.glide', {
+            type: 'carousel',
+            startAt: 0,
+            perView: 1,
+            autoplay: 5000,
+            hoverpause: true,
+            gap: 0,
+            animationDuration: 1000
+        }).mount();
+    </script></body>
+</html>
